@@ -34,7 +34,7 @@ func main() {
 	fmt.Println(fmt.Sprintf("version:%v", config.GetVersion()))
 	var osArgsLen = len(os.Args)
 	if 1 == osArgsLen {
-		fmt.Println("[use]:cmd targetlanuage content")
+		fmt.Println("[use]:cmd targetlanuage word")
 		fmt.Println("[eg]:BaiduTranslateGo zh English")
 		fmt.Println("[output]:\n\tversion:0.01\n\ten->zh:\n\tzh:英语\n\ten:English")
 		fmt.Println("[language list]")
