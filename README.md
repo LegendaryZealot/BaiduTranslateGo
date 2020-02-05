@@ -1,0 +1,2 @@
+# BaiduTranslateGo
+BaiduTranslateGo
